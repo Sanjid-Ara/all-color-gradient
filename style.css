@@ -1,0 +1,176 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: pink;
+}
+.container{
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding-top: 20px;
+    height: 1700px;
+    width: 95%;
+    margin: auto;
+    border: 5px dotted black;
+    
+}
+.first-heading{
+    border: 5px solid white;
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-image: radial-gradient(purple, steelblue,rebeccapurple,black);
+}
+.first-heading h1,h1{
+    box-shadow:inset 0px 0px 20px 1px mediumspringgreen;
+    width: 40%;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+.first-heading p,p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: auto;   
+}
+.linear-gradient{
+    border: 5px solid white;
+    background-image: radial-gradient(purple, steelblue,rebeccapurple,black);
+    height: 330px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.radial-gradient{
+    border: 5px solid white;
+    background-image: radial-gradient(purple, steelblue,rebeccapurple,black);
+    height: 320px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conic-gradient{
+    border: 5px solid white;
+    background-image: radial-gradient(purple, steelblue,rebeccapurple,black);
+    height: 160px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10,
+.box-11,.box-12,.box-13,.box-14,.box-15,.box-16,.box-17,.box-18,.box-19,
+.box-20,.box-21,.box-22,.box-23,.box-24,.box-25,.box-26,.box-27{
+    border: 3px solid black;
+    height: 150px;
+    width: 15%;
+    background-image: linear-gradient(to right,white,darkolivegreen,darkslategray);
+    color: black;
+}
+
+/* start of linear gradient */
+.box-1{
+    background-image: linear-gradient(orange,brown,lime);
+}
+.box-2{
+    background-image: linear-gradient(to top,orange,brown,lime);
+}
+.box-3{
+    background-image: linear-gradient(to left,orange,brown,lime);
+}
+.box-4{
+    background-image: linear-gradient(to right,orange,brown,lime);
+}
+.box-5{
+    background-image: linear-gradient(to top left,orange,brown,lime);
+}
+.box-6{
+    background-image: linear-gradient(to top right,orange,brown,lime);
+}
+.box-7{
+    background-image: linear-gradient(to bottom left,orange,brown,lime);
+}
+.box-8{
+    background-image: linear-gradient(to bottom right,orange,brown,lime);
+}
+.box-9{
+    background-image: linear-gradient(rgb(255, 166, 0,.5),rgb(165, 42, 42,.5),rgb(0, 255, 0,.5));
+}
+.box-10{
+    background-image: linear-gradient(orange,brown,lime);
+    opacity: .5;
+}
+.box-11{
+    background-image: repeating-linear-gradient(orange 10%,brown 20%,lime 30%);
+}
+
+
+/* start of radial gradient */
+.box-12{
+    background-image: radial-gradient(orange,brown,lime);
+}
+.box-13{
+    background-image: radial-gradient(circle,orange,brown,lime);
+}
+.box-14{
+    background-image: radial-gradient(orange 20%,brown 50%,lime);
+}
+.box-15{
+    background-image: radial-gradient(circle,orange 20%,brown 50%,lime);
+}
+.box-16{
+    background-image: repeating-radial-gradient(orange 5%,brown 15%,lime 25%);
+}
+.box-17{
+    background-image: radial-gradient(closest-side at 40% 60%,orange 10%,brown 20%,lime);
+}
+.box-18{
+    background-image: radial-gradient(closest-corner at 40% 60%,orange 10%,brown 20%,lime);
+}
+.box-19{
+    background-image: radial-gradient(farthest-side at 40% 60%,orange 10%,brown 20%,lime);
+}
+.box-20{
+    background-image: radial-gradient(farthest-corner at 40% 60%,orange 10%,brown 20%,lime);
+}
+
+
+/* start of conic gradient */
+.box-21{
+    background-image: conic-gradient(orange,brown,blue,lime);
+}
+.box-22{
+    background-image: conic-gradient(orange 30deg,brown 100deg,blue 150deg,lime 300deg);
+}
+.box-23{
+    background-image: conic-gradient(orange,brown,blue,lime);
+    border-radius: 50%;
+}
+.box-24{
+    background-image: conic-gradient(orange 20deg,brown 60deg,blue 200deg,lime 360deg);
+    border-radius: 50%;
+}
+.box-25{
+    background-image: repeating-conic-gradient(orange 5%,brown 15%,blue 25%,lime 35%);
+    border-radius: 50%;
+}
+.box-26{
+    background-image: repeating-conic-gradient(orange 0deg 10deg,brown 10deg 20deg,blue 20deg 30deg,lime 30deg 40deg);
+    border-radius: 50%;
+}
